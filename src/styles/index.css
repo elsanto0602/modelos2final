@@ -1,0 +1,33 @@
+.mainIndex{
+    display: flex;
+    height: 100vh;
+    background-color: #6b81dd;
+    align-items: center;
+    justify-content:center;
+}
+.welcomeDiv{
+    background-color: aliceblue;
+    padding: 10rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.welcomeDiv h1{
+    display: flex;
+    color: #6b81dd;
+}
+.welcomeDiv button{
+    margin-right:1rem;
+    margin-left:1rem;
+    background-color:#0185d2;
+    color: white;
+    border: 0;
+    font-family: 15px;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+}
+.welcomeDiv button:hover{
+    background-color: #6c8ff0;
+    cursor: pointer;
+}

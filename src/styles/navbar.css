@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #a4b1e6;
+    
+}
+
+.navbar button{
+    padding: 0;
+    border: 0;
+    height: 3.313rem;
+    background-color:#a4b1e6;
+    font-weight: bolder;      
+}
+
+.navbar button:hover{
+    cursor: pointer;
+    transform: scale(1.02);    
+}
+.navbar li{
+    margin-right: 5rem;
+}
+
+.ulNavbar{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
